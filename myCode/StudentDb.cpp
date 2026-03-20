@@ -131,7 +131,7 @@ void StudentDb::read(std::istream &in)
 	int numberOfCourses;
 	// Read number of courses
 	in >> numberOfCourses;
-	//in.();
+	in.ignore();
 
 	// Read all courses line by line
 	for (int lineOrder = 0; lineOrder < numberOfCourses;  ++lineOrder)
